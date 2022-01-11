@@ -10,7 +10,7 @@ import Geocode from "react-geocode";
 import Autocomplete from "react-google-autocomplete";
 import { saveSelectedPlace } from "../Actions/maps";
 import { connect } from "react-redux";
-import { ApiKey } from "./config";
+import { ApiKey } from "./mockConfig";
 
 export class MapsComponent extends Component {
   constructor(props) {
